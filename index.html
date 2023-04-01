@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Front-end foundations: HTML forms Assessment</title>
+    <link
+      href=""
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <main>
+      <form>
+        <div>
+          <label for="name">Name:</label>
+          <input 
+          id="name" 
+          type="text" 
+          autofocus="on"
+          name="name"
+          required
+          placeholder="Enter name here" />
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input
+          id="email"
+          type="text"
+          name="email"
+          manlength="5"
+          required 
+          />
+        </div>
+          <div>
+            <label for="form-message">Your message:</label>
+            <textarea
+            id="form-message"
+            name="message"
+            autofocus="on"
+            required
+            maxlength="200"
+            placeholder="How can I help you?"
+            ></textarea>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
